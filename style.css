@@ -1,0 +1,200 @@
+:root {
+    box-sizing: border-box;
+    color: white;
+}
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(zdjecia/background.jpg);
+    background-size: cover;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+#header {
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px
+}
+#logo {
+    float: left;
+    width: 20%;
+}
+
+#logo img {
+    width: 60px;
+    margin-left: 10px;
+}
+.menu {
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+.menu ul li a:hover {
+    color: #ffd77f;
+}
+.contact-info {
+    float: left;
+    width: 20%;
+}
+
+.tel-button {
+    text-decoration: none;
+    color: lightsalmon;
+    padding: 10px;
+    border: 2px solid;
+}
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+.slider-box {
+    height: 200px;
+    background-color: black;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    border-radius: 0px 0px 10px 10px;
+}
+.slider-half-item {
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding: 10px;
+}
+
+.slider-half-item article {
+    margin: 2rem;
+}
+
+.slider-half-item article .button-section {
+    margin-top: 1rem;
+}
+.slider-half-item .button {
+    text-transform: uppercase;
+    padding: 8px;
+    text-decoration: none;
+    margin: 2px;
+    font-size: 0.7rem;
+}
+
+.book-button {
+    color: #ffd77f;
+    border: 2px solid;
+}
+.order-button {
+    color: #7fd7ff;
+    border: 2px solid;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+.pizza-img {
+    background-image: url("https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.advantages-box {
+    background-color: transparent;
+}
+
+.adv-one-third {
+    width: 33.3%;
+    float: left;
+    padding: 20px;
+    margin: 30px 0px;
+}
+
+.column-adv {
+    height: 160px;
+    border: 5px solid black;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 10px;
+}
+
+.column-adv:hover {
+    transform: scale(1.08);
+    transition: all 0.5s;
+}
+
+.best-ingredients {
+    background-image: url(https://cdn.pixabay.com/photo/2016/05/24/13/29/olive-oil-1412361__340.jpg);
+}
+
+.original-recipe {
+    background-image: url(https://cdn.pixabay.com/photo/2016/05/06/12/15/cook-1375788_960_720.jpg);
+}
+
+.fast-delivery {
+    background-image: url(https://cdn.pixabay.com/photo/2020/02/10/18/31/motor-scooter-4837310_960_720.jpg);
+}
+
+span.description {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    padding: 5px;
+    font-weight: 700;
+}
+
+.pizza-menu {
+    background-color: black;
+    border-radius: 10px;
+}
+.menu-one-fourth {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.menu-one-fourth img {
+    width: 100%;
+    border-radius: 10px;
+}
+.page-footer {
+    background-color: black;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.page-footer ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.page-footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+.page-footer ul li a:hover {
+    color: #ffd77f;
+}
